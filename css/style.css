@@ -10,7 +10,7 @@ header{
     align-items: center;
 }
 #bg {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0,0,0,0.4);
     color: #fff;
     font-family: 'Bitter', serif;
     position: absolute;
