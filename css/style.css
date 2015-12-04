@@ -9,7 +9,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 }
 #bg {
     background-color: rgba(0,0,0,0.5);
@@ -54,4 +54,17 @@ span.logo a{
     left: 50%;
     display: block;
     margin: 50px auto;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+#arraw::after {
+	color: #fff;
+    content: " \2193";
+    font-size: 2em;
+}
+
+
+#one{
+	min-height: 300px;
 }
