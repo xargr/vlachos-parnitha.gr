@@ -25,6 +25,7 @@ header{
 span.logo h1{
 	text-shadow: 2px 1px 2px #AD9F59;
 	font-size: 2em;
+    text-align: center;
 }
 
 span.logo {
