@@ -22,9 +22,9 @@ header{
     z-index: 2;
 }
 
-h1{
+span.logo h1{
 	text-shadow: 2px 1px 2px #AD9F59;
-	font-size: 2.5em;
+	font-size: 2em;
 }
 
 span.logo {
@@ -32,7 +32,6 @@ span.logo {
     font-family: 'Comfortaa', cursive;
     font-style: italic;
     z-index: 3;
-    font-size: 1em;
 }
 
 span.logo a{
