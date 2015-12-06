@@ -20,7 +20,8 @@
     <![endif]-->
   </head>
   <body>
-    <header class="container-fluid">
+    <div class="container-fluid">
+    <header class="row">
 
       <span class="logo animated flipInY">
         <h1>ΤΑΒΕΡΝΑ Ο ΒΛΑΧΟΣ</h1>
@@ -30,7 +31,7 @@
         <br>
         <br>
         <i class="glyphicon glyphicon-earphone icon-logo" aria-hidden="true"></i>
-        &nbsp;&nbsp;<a href="tel:+302102444022">2102444022</a>
+        &nbsp;&nbsp;<a href="tel:+302102444022">2102463762</a>
         <br>
         <br>
         <i class="glyphicon glyphicon-time icon-logo" aria-hidden="true"></i>
@@ -43,8 +44,7 @@
     </header>
 
     
-  <section id="one" class="container-fluid">
-    <div class="row">
+  <section id="one" class="row">
       <div class="col-md-4">
         <div class="panel panel-default">
           <div class="panel-heading">Panel heading without title</div>
@@ -71,62 +71,59 @@
         </div>
       </div>
 
-    </div>
   </section>
 
-  <section id="two" class="container-fluid">
-    <div class="row">
-      <div class="col-md-6">
-        
-
-
-<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-   <div class="carousel-inner" role="listbox">
-    <div class="item active">
+<section id="two" class="row">
+    <div class="col-md-6">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+      <div class="item active">
       <img src="img/00.jpg" alt="">
-    </div>
-    <div class="item">
+      </div>
+      <div class="item">
       <img src="img/11.jpg" alt="">      
-    </div>   
-  </div> 
-</div>
-
-      </div>
-      <div class="col-md-6 ping">
-        <ul class="list-group">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Morbi leo risus</li>
-          <li class="list-group-item">Porta ac consectetur ac</li>
-          <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
+      </div>   
+      </div> 
       </div>
     </div>
-  </section>
+    <div class="col-md-6 ping">
+      <div id="map"></div>
+    </div>
+</section>
     
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function(){
-       $('.carousel').carousel({
-          interval: 2000
-        });
-
-       $('#arraw').on('click', function(){
-          $('html, body').animate({
-              scrollTop: $("#one").offset().top
-          }, 2000);
-
-       });
-
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAC3wfCQmwJr7kmdam0pJLzDEhTe7ZdfXM&callback=initMap">
+    </script>
+<script type="text/javascript">
+$(document).ready(function(){
+   $('.carousel').carousel({
+      interval: 4000
     });
 
-    </script>
+   $('#arraw').on('click', function(){
+      $('html, body').animate({
+          scrollTop: $("#one").offset().top
+      }, 800);
 
-  </body>
+   });
+
+});
+
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: -34.397, lng: 150.644},
+    zoom: 8
+  });
+}
+
+</script>
+</div>
+</body>
 </html>

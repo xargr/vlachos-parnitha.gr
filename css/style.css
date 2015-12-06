@@ -10,6 +10,9 @@ header{
     justify-content: center;
     align-items: center;
     z-index: 1;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
 }
 #bg {
@@ -71,4 +74,9 @@ span.logo a:hover{
 
 #one{
 	min-height: 300px;
+}
+
+#map{
+    height: 100%;
+    width: 100%;
 }
