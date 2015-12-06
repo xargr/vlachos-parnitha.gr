@@ -80,3 +80,9 @@ span.logo a:hover{
 #map {
     height: 50vh;
 }
+
+@media (max-width: 767px) {
+    #map {
+        height: 100vh;
+    }
+}
