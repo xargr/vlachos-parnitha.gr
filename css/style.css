@@ -76,7 +76,7 @@ span.logo a:hover{
 	min-height: 300px;
 }
 
-#map{
-    height: 100%;
-    width: 100%;
+
+#map {
+    height: 50vh;
 }
