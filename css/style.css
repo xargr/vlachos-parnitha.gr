@@ -4,7 +4,6 @@ header{
 	height: 100vh;
 	width: auto;
 	background-size: cover;
-	margin-bottom: 200px;
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,11 +70,19 @@ span.logo a:hover{
     font-size: 2em;
 }
 
-
 #one{
-	min-height: 300px;
+    margin: 20vh auto;
 }
 
+.quotes {
+    width: 65vw;
+    margin: 10vh auto;
+    font-family: monospace;
+    font-size: 1.2em;
+}
+.quotes::first-letter {
+    font-size: 4em;
+}
 
 #map {
     height: 50vh;
