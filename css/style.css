@@ -12,10 +12,9 @@ header{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-top: 10px;
 }
 #bg {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -35,6 +34,7 @@ span.logo {
     font-family: 'Comfortaa', cursive;
     font-style: italic;
     z-index: 3;
+    margin-top: 10px;
 }
 
 span.logo a{
@@ -98,8 +98,8 @@ span.logo a:hover{
 nav.navbar-fixed-top.navbar {
     font-family: 'Comfortaa', cursive;
     font-style: italic;
-    background: rgba(0,0,0,.7);
-    z-index: 3;
+    background: black;
+    z-index: 4;
 }
 nav.navbar-fixed-top.navbar a{
     color: #fff;
@@ -120,4 +120,8 @@ nav.navbar-fixed-top.navbar a:hover{
 
 .navbar-toggle .icon-bar{
     background: #fff;
+}
+
+.navbar-collapse {
+    box-shadow: none !important;
 }
