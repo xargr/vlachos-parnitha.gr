@@ -12,7 +12,7 @@ header{
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
+    margin-top: 10px;
 }
 #bg {
     background-color: rgba(0,0,0,0.8);
@@ -88,8 +88,36 @@ span.logo a:hover{
     height: 50vh;
 }
 
-@media (max-width: 767px) {
+@media(max-width:767px){
     #map {
         height: 75vh;
     }
+}
+
+
+nav.navbar-fixed-top.navbar {
+    font-family: 'Comfortaa', cursive;
+    font-style: italic;
+    background: rgba(0,0,0,.7);
+    z-index: 3;
+}
+nav.navbar-fixed-top.navbar a{
+    color: #fff;
+    font-size: 1.2em;
+}
+nav.navbar-fixed-top.navbar a:hover{
+    background: none;
+    text-decoration: underline;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: red !important;
+}
+
+.navbar-toggle {
+    border: 1px solid #fff !important;
+}
+
+.navbar-toggle .icon-bar{
+    background: #fff;
 }
