@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Comfortaa:700&subset=greek);
-header{
+.header1{
 	background-image: url('../img/paradosiaki-taverna-parnitha.jpg');
 	height: 100vh;
 	width: auto;
@@ -124,4 +124,15 @@ nav.navbar-fixed-top.navbar a:hover{
 
 .navbar-collapse {
     box-shadow: none !important;
+}
+
+
+.thumbnail {margin-bottom:6px;}
+
+.header2{
+    margin: 30vh 0;
+}
+
+.ff{
+    margin: 20px;
 }
