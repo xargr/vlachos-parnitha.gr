@@ -19,7 +19,7 @@ span.logo a:hover{text-decoration:underline}
 #map{height:75vh}
 .header3{text-align:center;}
 .btn-custom{margin:0 auto;}
-/*.pull-right{text-align: center;float:none !important;}*/
+.pull-right{text-align: center;float:none !important;}
 }
 nav.navbar-fixed-top.navbar{font-family:'Comfortaa',cursive;font-style:italic;background:#000;z-index:4}
 nav.navbar-fixed-top.navbar a{color:#fff;font-size:1.2em}
