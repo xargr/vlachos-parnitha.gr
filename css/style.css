@@ -6,7 +6,7 @@ span.logo{color:#fff;font-family:'Comfortaa',cursive;font-style:italic;z-index:3
 span.logo a{color:#fff;text-decoration:none}
 span.logo a:hover{text-decoration:underline}
 .icon-logo{font-size:1.5em}
-#arraw{height:50px;width:50px;background:#000;border-radius:50%;text-align:center;left:50%;display:block;margin:50px auto;border:3px solid #fff;cursor:pointer;z-index:3}
+#arraw{height:50px;width:50px;background:#000;border-radius:50%;text-align:center;left:50%;display:block;margin:50px auto;border:3px solid #fff;cursor:pointer;z-index:3;}
 #arraw::after{color:#fff;content:" \2193";font-size:2em}
 #one{margin:0 0 3vh 0;}
 #two{margin:25vh auto 5vh;}
@@ -17,6 +17,8 @@ span.logo a:hover{text-decoration:underline}
 #map{height:50vh}
 @media(max-width:767px) {
 #map{height:75vh}
+.header3{text-align:center;}
+.btn-custom{margin:0 auto;}
 }
 nav.navbar-fixed-top.navbar{font-family:'Comfortaa',cursive;font-style:italic;background:#000;z-index:4}
 nav.navbar-fixed-top.navbar a{color:#fff;font-size:1.2em}
@@ -28,3 +30,8 @@ nav.navbar-fixed-top.navbar a:hover{background:none;text-decoration:underline}
 .thumbnail{margin-bottom:6px}
 .header2{margin:30vh 0}
 .ff{margin:20px}
+.btn-custom{color:#fff;background-color:transparent !important;border-color:#fff;border-radius:0 !important;}
+.header3{height:100vh;width:auto;display:flex;flex-direction:column;justify-content:center;align-items:center;z-index:1;background:#000;}
+.btn:hover{background-color:#fff !important;color:#000;}
+#arraw2{height:50px;width:50px;background:#000;border-radius:50%;text-align:center;left:50%;display:block;margin:50px auto;border:3px solid #fff;cursor:pointer;z-index:3;}
+#arraw2::after{color:#fff;content:" \2193";font-size:2em}
