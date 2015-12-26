@@ -14,6 +14,8 @@ span.logo a:hover{text-decoration:underline}
 #two p:after{content:'';display:block;position:absolute;width:0;height:0;border-top:8px solid transparent;border-bottom: 8px solid transparent;border-right:15px solid lightgray;top:15px;left:-15px;}
 .quotes{width:80vw;margin:10vh auto;font-family:monospace;font-size:1.2em;line-height: 1.9em;position: relative;}
 .quotes:first-letter{font-size:4em}
+p.quotes:before{content: "“";position:absolute;font-size:6em;top:0px;left:-60px;color:lightgray;}
+p.quotes:after{ content: "”"; position:absolute;font-size:6em;bottom:-50px;right:-30px;color:lightgrey;}
 #map{height:50vh}
 @media(max-width:767px) {
 #map{height:75vh}
