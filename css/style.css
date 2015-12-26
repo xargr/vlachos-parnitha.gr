@@ -12,7 +12,7 @@ span.logo a:hover{text-decoration:underline}
 #two{margin:25vh auto 5vh;}
 #two p{background: lightgray;position:relative;border-radius:5px;padding: 1em;font-style: italic;font-family:'Comfortaa',cursive;}
 #two p:after{content:'';display:block;position:absolute;width:0;height:0;border-top:8px solid transparent;border-bottom: 8px solid transparent;border-right:15px solid lightgray;top:15px;left:-15px;}
-.quotes{width:80vw;margin:10vh auto;font-family:monospace;font-size:1.2em}
+.quotes{width:80vw;margin:10vh auto;font-family:monospace;font-size:1.2em;line-height: 1.9em;position: relative;}
 .quotes:first-letter{font-size:4em}
 #map{height:50vh}
 @media(max-width:767px) {
